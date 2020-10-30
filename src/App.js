@@ -8,25 +8,42 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const [employeeData, updateEmployeeData] = useState({
-    allEmployees: [],
-    filteredEmployees: [],
-    searchQuery: ""
+    allEmployees: employees,
+    filteredEmployees: employees,
+    searchQuery: "",
+    sortOrder:""
   });
 
-  useEffect(() => {
-    updateEmployeeData({
-      ...employeeData,
-      allEmployees: employees,
-      filteredEmployees: employees
-    })
-  }, [])
+  // useEffect(() => {
+  //   updateEmployeeData({
+  //     ...employeeData,
+  //     allEmployees: employees,
+  //     filteredEmployees: employees
+  //   })
+  // }, [])
+
+
 
   const searchEmployee = () => {
+    // const searchEmployee = ({value, onChange}) => {}
+
     // updateEmployeeData({...employeeData, searchQuery: name1[0]})
 
     console.log(employeeData)
 
-    const filteredEmployees = employeeData.allEmployees.filter(({ name }) => name[0] === employeeData.searchQuery)
+    let filteredEmployees = employeeData.allEmployees.filter(({ name }) => name.includes(employeeData.searchQuery))
+
+    console.log(filteredEmployees)
+
+
+  //   if(sortOrder === "DESC") {
+
+  //     allEmployees.reverse();
+
+  //     this.setState({ sortOrder: "ASC" });
+  // } else {
+  //     this.setState({ sortOrder: "DESC" });
+  // }
 
     updateEmployeeData({
       ...employeeData,
@@ -34,11 +51,18 @@ function App() {
     })
   };
 
+  useEffect(() => {
+
+    searchEmployee();
+
+  }, [employeeData.searchQuery])
+
+
   return (
 
     <>
 
-      <JumbotronComp searchEmployee={searchEmployee} />
+      <JumbotronComp updateEmployeeData={updateEmployeeData} searchEmployee={searchEmployee} employeeData={employeeData}/>
 
       <Wrapper>
         {employeeData.filteredEmployees.map(employee => (

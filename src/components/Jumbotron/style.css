@@ -3,6 +3,7 @@
     background-color: rgb(255, 255, 255) !important;
     justify-content: center !important;
     align-items: center !important;
+    text-align: center !important;
 
 }
 
@@ -10,4 +11,21 @@ h1, form {
     text-align: center !important;
     justify-content: center !important;
     align-items: center !important;
+    margin-bottom: 15px !important;
 }
+
+button, input, optgroup, select, textarea {
+    margin-bottom: 15px !important;
+}
+
+button {
+    background-color: black !important;
+}
+
+button:hover {
+
+    background: #535353 !important;
+    transition: all 0.35s ease-in-out !important;
+    color: white;
+  
+  }
