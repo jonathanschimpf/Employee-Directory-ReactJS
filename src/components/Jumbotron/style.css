@@ -1,0 +1,13 @@
+.jumbotronStyle {
+
+    background-color: rgb(255, 255, 255) !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+}
+
+h1, form {
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+}

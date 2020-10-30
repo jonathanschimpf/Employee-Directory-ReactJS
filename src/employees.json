@@ -3,15 +3,15 @@
         "id": 1,
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dunder_Mifflin%2C_Inc.svg/240px-Dunder_Mifflin%2C_Inc.svg.png",
         "name": "Roy Anderson",
-        "occupation": "Warehouse Dock Worker",
-        "phone": "570-241-1549",
+        "title": "Warehouse Dock Worker",
+        "phone": "570.241.1549",
         "email": "randerson@dundermifflin.com"
     },
     {
         "id": 2,
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dunder_Mifflin%2C_Inc.svg/240px-Dunder_Mifflin%2C_Inc.svg.png",
         "name": "Andy Bernard",
-        "occupation": "Sales Representative",
+        "title": "Sales Representative",
         "phone": "570.241.8833",
         "email": "abernard@dundermifflin.com"
     },
@@ -19,7 +19,7 @@
         "id": 3,
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dunder_Mifflin%2C_Inc.svg/240px-Dunder_Mifflin%2C_Inc.svg.png",
         "name": "Creed Bratton",
-        "occupation": "Quality Assurance Representative",
+        "title": "Quality Assurance Representative",
         "phone": "570.241.3036",
         "email": "cbratton@dundermifflin.com"
     },
@@ -27,7 +27,7 @@
         "id": 4,
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dunder_Mifflin%2C_Inc.svg/240px-Dunder_Mifflin%2C_Inc.svg.png",
         "name": "Toby Flenderson",
-        "occupation": "Human Resource Representative",
+        "title": "Human Resource Representative",
         "phone": "570.241.2823",
         "email": "tflenderson@dundermifflin.com"
     },
@@ -35,7 +35,7 @@
         "id": 5,
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dunder_Mifflin%2C_Inc.svg/240px-Dunder_Mifflin%2C_Inc.svg.png",
         "name": "Jim Halpert",
-        "occupation": "Sales Representative",
+        "title": "Sales Representative",
         "phone": "570.241.7070",
         "email": "jhalpert@dundermifflin.com"
     },
@@ -43,7 +43,7 @@
         "id": 6,
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dunder_Mifflin%2C_Inc.svg/240px-Dunder_Mifflin%2C_Inc.svg.png",
         "name": "Pam Halpert",
-        "occupation": "Sales Representative",
+        "title": "Sales Representative",
         "phone": "570.241.1866",
         "email": "phalpert@dundermifflin.com"
     },
@@ -51,7 +51,7 @@
         "id": 7,
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dunder_Mifflin%2C_Inc.svg/240px-Dunder_Mifflin%2C_Inc.svg.png",
         "name": "Erin Hannon",
-        "occupation": "Receptionist",
+        "title": "Receptionist",
         "phone": "570.241.1461",
         "email": "ehannon@dundermifflin.com"
     },
@@ -59,7 +59,7 @@
         "id": 8,
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dunder_Mifflin%2C_Inc.svg/240px-Dunder_Mifflin%2C_Inc.svg.png",
         "name": "Stanley Hudson",
-        "occupation": "Sales Representative",
+        "title": "Sales Representative",
         "phone": "570.241.3510",
         "email": "shudson@dundermifflin.com"
     },
@@ -67,7 +67,7 @@
         "id": 9,
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dunder_Mifflin%2C_Inc.svg/240px-Dunder_Mifflin%2C_Inc.svg.png",
         "name": "Jan Levinson",
-        "occupation": "Vice President - Sales",
+        "title": "Vice President - Sales",
         "phone": "212.368.7554",
         "email": "jlevinson@dundermifflin.com"
     },
@@ -75,7 +75,7 @@
         "id": 10,
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dunder_Mifflin%2C_Inc.svg/240px-Dunder_Mifflin%2C_Inc.svg.png",
         "name": "David Wallace",
-        "occupation": "CFO",
+        "title": "CFO",
         "phone": "212.564.9987",
         "email": "dwallace@dundermifflin.com"
     },
@@ -83,7 +83,7 @@
         "id": 11,
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dunder_Mifflin%2C_Inc.svg/240px-Dunder_Mifflin%2C_Inc.svg.png",
         "name": "Ryan Howard",
-        "occupation": "Sales Representative (Temp)",
+        "title": "Sales Representative (Temp)",
         "phone": "570.241.6163",
         "email": "rhoward@dundermifflin.com"
     },
@@ -91,7 +91,7 @@
         "id": 12,
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dunder_Mifflin%2C_Inc.svg/240px-Dunder_Mifflin%2C_Inc.svg.png",
         "name": "Darryl Philbin",
-        "occupation": "Warehouse Foreman",
+        "title": "Warehouse Foreman",
         "phone": "570.241.3469",
         "email": "dphilbin@dundermifflin.com"
     },
@@ -99,7 +99,7 @@
         "id": 13,
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dunder_Mifflin%2C_Inc.svg/240px-Dunder_Mifflin%2C_Inc.svg.png",
         "name": "Kelly Kapoor",
-        "occupation": "Customer Service Representative",
+        "title": "Customer Service Representative",
         "phone": "570.241.1809",
         "email": "kkapoor@dundermifflin.com"
     },
@@ -107,7 +107,7 @@
         "id": 14,
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dunder_Mifflin%2C_Inc.svg/240px-Dunder_Mifflin%2C_Inc.svg.png",
         "name": "Meredith Palmer",
-        "occupation": "Supplier Relations Representative",
+        "title": "Supplier Relations Representative",
         "phone": "570.241.5395",
         "email": "mpalmer@dundermifflin.com"
     },
@@ -115,7 +115,7 @@
         "id": 15,
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dunder_Mifflin%2C_Inc.svg/240px-Dunder_Mifflin%2C_Inc.svg.png",
         "name": "Oscar Martinez",
-        "occupation": "Accountant",
+        "title": "Accountant",
         "phone": "570.241.5449",
         "email": "omartinez@dundermifflin.com"
     },
@@ -123,7 +123,7 @@
         "id": 16,
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dunder_Mifflin%2C_Inc.svg/240px-Dunder_Mifflin%2C_Inc.svg.png",
         "name": "Kevin Malone",
-        "occupation": "Accountant",
+        "title": "Accountant",
         "phone": "570.241.2294",
         "email": "kmalone@dundermifflin.com"
     },
@@ -131,7 +131,7 @@
         "id": 17,
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dunder_Mifflin%2C_Inc.svg/240px-Dunder_Mifflin%2C_Inc.svg.png",
         "name": "Angela Martin",
-        "occupation": "Senior Accountant",
+        "title": "Senior Accountant",
         "phone": "570.241.4548",
         "email": "amartin@dundermifflin.com"
     },
@@ -139,7 +139,7 @@
         "id": 18,
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dunder_Mifflin%2C_Inc.svg/240px-Dunder_Mifflin%2C_Inc.svg.png",
         "name": "Phyllis Lapin-Vance",
-        "occupation": "Sales Representative",
+        "title": "Sales Representative",
         "phone": "570.241.2623",
         "email": "plapinvance@dundermifflin.com"
     },
@@ -147,7 +147,7 @@
         "id": 19,
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dunder_Mifflin%2C_Inc.svg/240px-Dunder_Mifflin%2C_Inc.svg.png",
         "name": "Dwight Schrute",
-        "occupation": "Assistant To The Regional Manager",
+        "title": "Assistant To The Regional Manager",
         "phone": "570.241.4132",
         "email": "dschrute@dundermifflin.com"
     },
@@ -155,7 +155,7 @@
         "id": 20,
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Dunder_Mifflin%2C_Inc.svg/240px-Dunder_Mifflin%2C_Inc.svg.png",
         "name": "Michael Scott",
-        "occupation": "Regional Manager",
+        "title": "Regional Manager",
         "phone": "570.241.4877",
         "email": "mscott@dundermifflin.com"
     }
