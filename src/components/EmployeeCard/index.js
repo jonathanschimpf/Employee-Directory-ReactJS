@@ -23,6 +23,7 @@ function EmployeeCard(props) {
           </li>
         </ul>
       </div>
+      <span {...() =>  props.searchEmployee(props.name)} />
     </div>
   );
 }
