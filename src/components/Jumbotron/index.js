@@ -17,16 +17,16 @@ const JumbotronComp = (props) => (
   <br></br>
   <br></br> 
   <Form inline>
-    
+
       <FormControl type="text" placeholder="Search Employee" className="mr-sm-2" onChange={ (e) => props.updateEmployeeData({...props.employeeData, searchQuery: e.target.value})} />
   
-      <Button variant="dark" size="sm" onClick={() => props.searchEmployee(props.name)}>Submit</Button>
+      {/* <Button variant="dark" size="sm" onClick={() => props.searchEmployee(props.name)}>Submit</Button> */}
 
     </Form>
 
-    <br></br>
-    <br></br>
-    <Button variant="dark" size="sm" onClick={() => props.sortOrder(props.name)}>Sort Ascending/Descending</Button>
+    <Button variant="dark" size="sm" onClick={() => props.sortOrder(true)}>Sort Ascending</Button>
+    {""}
+    <Button variant="dark" size="sm" onClick={() => props.sortOrder(false)}>Sort Descending</Button>
     <br></br>
     <br></br>
     <hr></hr>

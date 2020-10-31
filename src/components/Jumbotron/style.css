@@ -7,6 +7,11 @@
 
 }
 
+.jumbotron {
+
+    padding: 10px !important;
+}
+
 h1, form {
     text-align: center !important;
     justify-content: center !important;

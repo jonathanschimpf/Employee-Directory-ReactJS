@@ -10,38 +10,35 @@ function App() {
   const [employeeData, updateEmployeeData] = useState({
     allEmployees: employees,
     filteredEmployees: employees,
-    searchQuery: "",
-    sortOrder: ""
+    searchQuery: ""
   });
 
-  const sortOrder = () => {
+  const sortOrder = (sortASC) => {
     
-    // INCOMPLETE! finish logic here to toggle:
-
-    // if employeeData.sortOrder is not set || is descending 
-    // sort ascending and set new state as such 
-    // else does opposite.
-
-    // if (employeeData.sortOrder === "ASC") {
-
-    //   allEmployees.reverse();
-
-    //   setState({ sortOrder: "ASC" });
-
-    // } else {
-
-    //   setState({ sortOrder: "DESC" });
-    // }
-
     console.log("CoN soRt() LoG!")
 
     const sortedEmployees = employeeData.filteredEmployees.sort((a, b) => {
-      a = a.name.toLowerCase();
-      b = b.name.toLowerCase();
-      return a < b ? -1 : a > b ? 1 : 0;
+      // a = a.name.toLowerCase();
+      // b = b.name.toLowerCase();
+      // return a < b ? -1 : a > b ? 1 : 0;
+
+
+  var nameA = a.name.toLowerCase();
+  var nameB = b.name.toLowerCase();
+  if (nameA < nameB) {
+
+    return (sortASC) ?  -1 : 1;
+  }
+
+  if (nameA > nameB) {
+    return (sortASC) ? 1: -1;
+  }
+
+  
+  return 0;
 
     })
-    
+
     updateEmployeeData({
       ...employeeData,
       filteredEmployees : sortedEmployees
@@ -53,7 +50,13 @@ function App() {
 
     console.log(employeeData)
 
-    let filteredEmployees = employeeData.allEmployees.filter(({ name }) => name.includes(employeeData.searchQuery))
+    let filteredEmployees = employeeData.allEmployees.filter(({ name }) =>{
+
+      const lowerCaseJson = name.toLowerCase();
+
+      return lowerCaseJson.includes(employeeData.searchQuery.toLowerCase());
+
+    })
 
     console.log(filteredEmployees)
 
