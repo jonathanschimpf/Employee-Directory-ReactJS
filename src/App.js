@@ -22,7 +22,19 @@ function App() {
     // sort ascending and set new state as such 
     // else does opposite.
 
-    console.log("CLICKED ME DUDE")
+    // if (employeeData.sortOrder === "ASC") {
+
+    //   allEmployees.reverse();
+
+    //   setState({ sortOrder: "ASC" });
+
+    // } else {
+
+    //   setState({ sortOrder: "DESC" });
+    // }
+
+    console.log("CoNsoRt() LoG!")
+
     const sortedEmployees = employeeData.filteredEmployees.sort((a, b) => {
       a = a.name.toLowerCase();
       b = b.name.toLowerCase();
@@ -33,17 +45,6 @@ function App() {
       filteredEmployees : sortedEmployees
     })
   };
-
-      // if (employeeData.allEmployees.sortOrder === "DESC") {
-
-      //   allEmployees.reverse();
-
-      //   setState({ sortOrder: "ASC" });
-
-      // } else {
-
-      //   setState({ sortOrder: "DESC" });
-      // }
 
 
   const searchEmployee = () => {
