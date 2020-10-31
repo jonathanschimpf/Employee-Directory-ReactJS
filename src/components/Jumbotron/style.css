@@ -34,3 +34,28 @@ button:hover {
     color: white;
   
   }
+
+  .textAlign {
+
+    text-align: center !important;
+    align-content: center !important;
+  }
+
+  @media screen and (min-width:287px) {
+
+    .regularInput{
+  
+      width: 275px !important;
+  
+    }
+  }
+  
+  
+  @media screen and (max-width:286px) {
+  
+    .responsiveInput{
+  
+      width: 240px !important;
+  
+    }
+  }
