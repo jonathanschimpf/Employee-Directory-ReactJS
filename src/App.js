@@ -33,13 +33,15 @@ function App() {
     //   setState({ sortOrder: "DESC" });
     // }
 
-    console.log("CoNsoRt() LoG!")
+    console.log("CoN soRt() LoG!")
 
     const sortedEmployees = employeeData.filteredEmployees.sort((a, b) => {
       a = a.name.toLowerCase();
       b = b.name.toLowerCase();
       return a < b ? -1 : a > b ? 1 : 0;
+
     })
+    
     updateEmployeeData({
       ...employeeData,
       filteredEmployees : sortedEmployees
