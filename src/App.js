@@ -11,23 +11,11 @@ function App() {
     allEmployees: employees,
     filteredEmployees: employees,
     searchQuery: "",
-    sortOrder:""
+    sortOrder: ""
   });
-
-  // useEffect(() => {
-  //   updateEmployeeData({
-  //     ...employeeData,
-  //     allEmployees: employees,
-  //     filteredEmployees: employees
-  //   })
-  // }, [])
-
 
 
   const searchEmployee = () => {
-    // const searchEmployee = ({value, onChange}) => {}
-
-    // updateEmployeeData({...employeeData, searchQuery: name1[0]})
 
     console.log(employeeData)
 
@@ -36,14 +24,20 @@ function App() {
     console.log(filteredEmployees)
 
 
-  //   if(sortOrder === "DESC") {
+    
 
-  //     allEmployees.reverse();
+      if (employeeData.allEmployees.sortOrder === "DESC") {
 
-  //     this.setState({ sortOrder: "ASC" });
-  // } else {
-  //     this.setState({ sortOrder: "DESC" });
-  // }
+        allEmployees.reverse();
+
+        setState({ sortOrder: "ASC" });
+
+      } else {
+
+        setState({ sortOrder: "DESC" });
+      }
+    
+
 
     updateEmployeeData({
       ...employeeData,
@@ -62,7 +56,8 @@ function App() {
 
     <>
 
-      <JumbotronComp updateEmployeeData={updateEmployeeData} searchEmployee={searchEmployee} employeeData={employeeData}/>
+      <JumbotronComp updateEmployeeData={updateEmployeeData} 
+      searchEmployee={searchEmployee} employeeData={employeeData} />
 
       <Wrapper>
         {employeeData.filteredEmployees.map(employee => (
