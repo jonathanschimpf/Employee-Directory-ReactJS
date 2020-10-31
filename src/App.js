@@ -14,6 +14,37 @@ function App() {
     sortOrder: ""
   });
 
+  const sortOrder = () => {
+    
+    // INCOMPLETE! finish logic here to toggle:
+
+    // if employeeData.sortOrder is not set || is descending 
+    // sort ascending and set new state as such 
+    // else does opposite.
+
+    console.log("CLICKED ME DUDE")
+    const sortedEmployees = employeeData.filteredEmployees.sort((a, b) => {
+      a = a.name.toLowerCase();
+      b = b.name.toLowerCase();
+      return a < b ? -1 : a > b ? 1 : 0;
+    })
+    updateEmployeeData({
+      ...employeeData,
+      filteredEmployees : sortedEmployees
+    })
+  };
+
+      // if (employeeData.allEmployees.sortOrder === "DESC") {
+
+      //   allEmployees.reverse();
+
+      //   setState({ sortOrder: "ASC" });
+
+      // } else {
+
+      //   setState({ sortOrder: "DESC" });
+      // }
+
 
   const searchEmployee = () => {
 
@@ -22,21 +53,6 @@ function App() {
     let filteredEmployees = employeeData.allEmployees.filter(({ name }) => name.includes(employeeData.searchQuery))
 
     console.log(filteredEmployees)
-
-
-    
-
-      if (employeeData.allEmployees.sortOrder === "DESC") {
-
-        allEmployees.reverse();
-
-        setState({ sortOrder: "ASC" });
-
-      } else {
-
-        setState({ sortOrder: "DESC" });
-      }
-    
 
 
     updateEmployeeData({
@@ -56,7 +72,7 @@ function App() {
 
     <>
 
-      <JumbotronComp updateEmployeeData={updateEmployeeData} 
+      <JumbotronComp sortOrder={sortOrder} updateEmployeeData={updateEmployeeData} 
       searchEmployee={searchEmployee} employeeData={employeeData} />
 
       <Wrapper>
