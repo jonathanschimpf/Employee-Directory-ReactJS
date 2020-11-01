@@ -1,9 +1,17 @@
 .jumbotronStyle {
 
-    background-color: rgb(255, 255, 255) !important;
+    background-color: rgb(148, 148, 148) !important;
     justify-content: center !important;
     align-items: center !important;
     text-align: center !important;
+
+}
+
+.responsiveDunder {
+
+    width: 100%;
+    max-width: 800px;
+    height: auto;
 
 }
 
@@ -29,9 +37,10 @@ button {
 
 button:hover {
 
-    background: #535353 !important;
+    background: #ffffff !important;
     transition: all 0.35s ease-in-out !important;
-    color: white;
+    color: rgb(0, 0, 0)!important;
+    border-color: white !important;
   
   }
 

@@ -14,8 +14,7 @@ import DunderLogo from "../../images/the_office_office_tag.png";
 const JumbotronComp = (props) => (
 
   <Jumbotron fluid className="jumbotronStyle">
-    <hr></hr>
-    <Image src={DunderLogo} responsive />
+    <Image src={DunderLogo} className="responsiveDunder" />
     <br></br>
     <br></br>
     <Form inline>
@@ -27,11 +26,12 @@ const JumbotronComp = (props) => (
     </Form>
 
     <Button variant="dark" size="sm" onClick={() => props.sortOrder(true)}>Sort Ascending</Button>
-    {"‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎"}
+    {"‏‏‎ ‎‏‏‎ ‎‏‏‎‎"}
     <Button variant="dark" size="sm" onClick={() => props.sortOrder(false)}>Sort Descending</Button>
+    {"‏‏‎ ‎‏‏‎ ‎‏‏‎‎"}
     <br></br>
     <br></br>
-    <hr></hr>
+
 
   </Jumbotron>
 
