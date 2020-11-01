@@ -25,7 +25,7 @@
 
 <p>&nbsp;<p>
 
-Dunder Mifflin / Directory is a small employee directory application that i built using the `React.js` library.
+<b>Dunder Mifflin / Directory</b> is an employee directory application that i built using the `React.js` library.
 
 (..ADDITIONAL TEXT TO BE ADDED SOON)
 
