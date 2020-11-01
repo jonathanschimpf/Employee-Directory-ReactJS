@@ -6,6 +6,7 @@ import Form from 'react-bootstrap/Form';
 import FormControl from 'react-bootstrap/FormControl';
 import Button from 'react-bootstrap/Button';
 import Image from 'react-bootstrap/Image';
+import DunderLogo from "../../images/the_office_office_tag.png";
 
 
 
@@ -14,7 +15,7 @@ const JumbotronComp = (props) => (
 
   <Jumbotron fluid className="jumbotronStyle">
     <hr></hr>
-    <Image src="../../../public/images/the_office_office_tag.png" fluid />
+    <Image src={DunderLogo} responsive />
     <br></br>
     <br></br>
     <Form inline>
