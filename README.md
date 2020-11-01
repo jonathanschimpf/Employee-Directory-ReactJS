@@ -159,6 +159,13 @@ This project is covered under the MIT license.
 <p>&nbsp;‏‏‎‏‏‎ ‎<strong>+</strong></p>
 
 
+`Base64 Image Encoder` =>‏‏‎ ‎ ‏‏‎ ‎[Optimize your images and convert them to Base64 online.](https://www.base64-image.de/)
+
+
+
+<p>&nbsp;‏‏‎‏‏‎ ‎<strong>+</strong></p>
+
+
 
 `React-Bootstrap` =>‏‏‎ ‎ ‏‏‎ ‎[The most popular front-end framework. Rebuilt for React.](https://react-bootstrap.github.io/)
 
