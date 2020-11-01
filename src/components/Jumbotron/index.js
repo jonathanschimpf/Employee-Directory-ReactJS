@@ -5,21 +5,22 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 import Form from 'react-bootstrap/Form';
 import FormControl from 'react-bootstrap/FormControl';
 import Button from 'react-bootstrap/Button';
+import Image from 'react-bootstrap/Image';
 
 
 
 
 const JumbotronComp = (props) => (
 
-<Jumbotron fluid className="jumbotronStyle">
+  <Jumbotron fluid className="jumbotronStyle">
     <hr></hr>
-  <h1 className="display-3">Employee Directory</h1>
-  <br></br>
-  <br></br> 
-  <Form inline>
+    <Image src="../../../public/images/the_office_office_tag.png" fluid />
+    <br></br>
+    <br></br>
+    <Form inline>
 
-      <FormControl type="text" placeholder="Search Employee Directory" className="mr-sm-2 regularInput responsiveInput textAlign" onChange={ (e) => props.updateEmployeeData({...props.employeeData, searchQuery: e.target.value})} />
-  
+      <FormControl type="text" placeholder="Search Employee Directory" className="mr-sm-2 regularInput responsiveInput textAlign" onChange={(e) => props.updateEmployeeData({ ...props.employeeData, searchQuery: e.target.value })} />
+
       {/* <Button variant="dark" size="sm" onClick={() => props.searchEmployee(props.name)}>Submit</Button> */}
 
     </Form>
@@ -31,7 +32,7 @@ const JumbotronComp = (props) => (
     <br></br>
     <hr></hr>
 
-</Jumbotron>
+  </Jumbotron>
 
 )
 

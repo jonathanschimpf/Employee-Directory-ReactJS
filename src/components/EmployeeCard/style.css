@@ -1,10 +1,12 @@
 .card {
     background: #fff;
     border-radius: 2px;
+    border:black;
     border-color: black;
     height: 400px;
-    margin: 1rem;
-    position: relative;
+    margin: 10px;
+    margin-bottom: 30px;
+    /* position: relative; */
     width: 360px;
     box-shadow: 0 6px 9px #999, 0 6px 9px #999;
     text-align: left;
@@ -12,9 +14,10 @@
   
   .img-container {
     height: 200px;
+    width: auto;
     overflow: hidden;
     text-align: center;
-    padding-top: 10px;
+    align-content: center;
     background: black;
   }
   

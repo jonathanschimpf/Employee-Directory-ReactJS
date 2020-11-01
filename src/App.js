@@ -3,6 +3,9 @@ import EmployeeCard from "./components/EmployeeCard";
 import Wrapper from "./components/Wrapper";
 import JumbotronComp from "./components/Jumbotron";
 import employees from "./employees.json";
+// import DunderCard from "./components/DunderCard";
+// import DunderCardDeck from "./components/DunderCardDeck";
+// import Container from 'react-bootstrap/Container';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // app function where we useState //
@@ -97,6 +100,7 @@ function App() {
 
       <JumbotronComp sortOrder={sortOrder} updateEmployeeData={updateEmployeeData}
         searchEmployee={searchEmployee} employeeData={employeeData} />
+      
 
       <Wrapper>
         {employeeData.filteredEmployees.map(employee => (
@@ -112,6 +116,7 @@ function App() {
           />
         ))}
       </Wrapper>
+      
 
     </>
   );
