@@ -25,7 +25,9 @@
 
 <p>&nbsp;<p>
 
-(..TEXT TO BE ADDED)
+Dunder Mifflin / Directory is a small employee directory application that i built using the `React.js` library.
+
+(..ADDITIONAL TEXT TO BE ADDED SOON)
 
 <p>&nbsp;<p>
 
@@ -80,7 +82,7 @@ Log on to:‏‏‎ ‎‏‏‎ ‎‎‏‏[`Dunder Mifflin / Directory`](http
 <p>&nbsp;<p>
 
 
-<!-- [![IMAGE](public/assets/images/screengrab.jpg)](https://onlineoffline-budget-app.herokuapp.com/) 
+[![IMAGE](public/readme_content/dunder.mifflin.directory_screengrab.jpg)](https://jonathanschimpf.github.io/Employee-Directory-ReactJS/) 
 
 
 <p>&nbsp;<p>
@@ -89,7 +91,7 @@ Log on to:‏‏‎ ‎‏‏‎ ‎‎‏‏[`Dunder Mifflin / Directory`](http
 --- 
 
 
-<p>&nbsp;<p>
+<!-- <p>&nbsp;<p>
 
 
 

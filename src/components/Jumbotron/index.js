@@ -16,7 +16,6 @@ const JumbotronComp = (props) => (
   <Jumbotron fluid className="jumbotronStyle">
     <Image src={DunderLogo} className="responsiveDunder" />
     <br></br>
-    
     <h3 className="responsiveText"><strong><span className="white">Dunder Mifflin</span> / Directory</strong></h3>
     <br></br>
     <Form inline>
