@@ -16,10 +16,12 @@ const JumbotronComp = (props) => (
   <Jumbotron fluid className="jumbotronStyle">
     <Image src={DunderLogo} className="responsiveDunder" />
     <br></br>
+    
+    <h3 className="responsiveText"><strong><span className="white">Dunder Mifflin</span> / Directory</strong></h3>
     <br></br>
     <Form inline>
 
-      <FormControl type="text" placeholder="Search Directory By Name" className="mr-sm-2 regularInput responsiveInput textAlign" onChange={(e) => props.updateEmployeeData({ ...props.employeeData, searchQuery: e.target.value })} />
+      <FormControl type="text" placeholder="Search Employee By Name" className="mr-sm-2 regularInput responsiveInput textAlign" onChange={(e) => props.updateEmployeeData({ ...props.employeeData, searchQuery: e.target.value })} />
 
       {/* <Button variant="dark" size="sm" onClick={() => props.searchEmployee(props.name)}>Submit</Button> */}
 

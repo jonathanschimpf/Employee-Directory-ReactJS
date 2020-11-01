@@ -51,10 +51,14 @@ button:hover {
     align-content: center !important;
   }
 
+  .white {
 
-  /* GALAXY FOLDS ARE TRASH I DON'T KNOW 
-  WHY I AM DOING THIS BUT IT HELPS LOL */
-  
+    color: white !important;
+
+  }
+
+  /* MEDIA QUERY FOR INPUT AREA */
+
   @media screen and (min-width:287px) {
 
     .regularInput{
@@ -70,6 +74,26 @@ button:hover {
     .responsiveInput{
   
       width: 240px !important;
+  
+    }
+  }
+
+    /* MEDIA QUERY FOR H3 "DUNDER MIFFLIN / DIRECTOYY" TEXT */
+
+  @media screen and (max-width:340px) {
+  
+    .responsiveText{
+  
+      font-size: 24px !important;
+  
+    }
+  }
+
+  @media screen and (max-width:290px) {
+  
+    .responsiveText{
+  
+      font-size: 18px !important;
   
     }
   }
