@@ -106,10 +106,10 @@ Log on to:‏‏‎ ‎‏‏‎ ‎‎‏‏[`Dunder Mifflin / Directory`](http
 
 <p>&nbsp;</p>
 <p align= "center"><img src="public/assets/images/Online_Offline_Budget_Tool_Final.gif" alt="animated" href="https://onlineoffline-budget-app.herokuapp.com/" /></p>
-<p>&nbsp;</p>   -->
+<p>&nbsp;</p>   
 
 
----
+--- -->
 
 
 
