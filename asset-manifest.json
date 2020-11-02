@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Employee-Directory-ReactJS/static/css/main.67e295ab.chunk.css",
+    "main.css": "/Employee-Directory-ReactJS/static/css/main.d8ecce9b.chunk.css",
     "main.js": "/Employee-Directory-ReactJS/static/js/main.32e1e67f.chunk.js",
     "main.js.map": "/Employee-Directory-ReactJS/static/js/main.32e1e67f.chunk.js.map",
     "runtime-main.js": "/Employee-Directory-ReactJS/static/js/runtime-main.11a9fffe.js",
@@ -10,7 +10,7 @@
     "static/js/2.615a726f.chunk.js.map": "/Employee-Directory-ReactJS/static/js/2.615a726f.chunk.js.map",
     "index.html": "/Employee-Directory-ReactJS/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/Employee-Directory-ReactJS/static/css/2.20aa2d7b.chunk.css.map",
-    "static/css/main.67e295ab.chunk.css.map": "/Employee-Directory-ReactJS/static/css/main.67e295ab.chunk.css.map",
+    "static/css/main.d8ecce9b.chunk.css.map": "/Employee-Directory-ReactJS/static/css/main.d8ecce9b.chunk.css.map",
     "static/js/2.615a726f.chunk.js.LICENSE.txt": "/Employee-Directory-ReactJS/static/js/2.615a726f.chunk.js.LICENSE.txt",
     "static/media/the_office_office_tag.148a0edd.png": "/Employee-Directory-ReactJS/static/media/the_office_office_tag.148a0edd.png"
   },
@@ -18,7 +18,7 @@
     "static/js/runtime-main.11a9fffe.js",
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.615a726f.chunk.js",
-    "static/css/main.67e295ab.chunk.css",
+    "static/css/main.d8ecce9b.chunk.css",
     "static/js/main.32e1e67f.chunk.js"
   ]
 }
