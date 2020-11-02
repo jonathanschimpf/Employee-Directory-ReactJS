@@ -69,7 +69,7 @@ View the application here =>‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏[`Dunde
 <p>&nbsp;<p>
 
 
-<strong>Log on to:‏‏‎<strong> ‎‏‏‎ ‎‎‏‏[`Dunder Mifflin / Directory`](https://jonathanschimpf.github.io/Employee-Directory-ReactJS/). 
+<strong>Log on to:‏‏‎</strong> ‎‏‏‎ ‎‎‏‏[`Dunder Mifflin / Directory`](https://jonathanschimpf.github.io/Employee-Directory-ReactJS/). 
 
 Simply search the first or last name of the employee you're looking to find additional information on and their card will auto populate as you type. Additionally, you can use the sorting buttons to toggle between ascending and descending alphabetical order if you prefer. 
 
