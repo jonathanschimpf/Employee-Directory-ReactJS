@@ -100,7 +100,7 @@ function App() {
 
       <JumbotronComp sortOrder={sortOrder} updateEmployeeData={updateEmployeeData}
         searchEmployee={searchEmployee} employeeData={employeeData} />
-      
+
 
       <Wrapper>
         {employeeData.filteredEmployees.map(employee => (
@@ -116,9 +116,11 @@ function App() {
           />
         ))}
       </Wrapper>
+      
+      <br></br>
 
     </>
-        
+
   );
 };
 

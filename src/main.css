@@ -3,7 +3,7 @@
     font-family: 'Heebo', sans-serif;
   }
   
-  html, body, #root {
+  html, body {
     padding: 0;
     margin: 0;
     height: 100%;
